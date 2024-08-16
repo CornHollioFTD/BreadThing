@@ -1,2 +1,42 @@
-# BreadThing
-QoL changes to breadboard editor.
+v0.7
+- Bug was fixed.
+
+
+v0.6
+- Default printer changed to {0:G3}.
+- Rearranged inventory and edit panel.
+- More space given for ME expression.
+- Added scrolling with (shift)WASD and arrows. WASD while holding middle mouse button to move camera or building cursor.
+- Removed copy/paste explanation from editor.
+- Pause can be enabled in build mode.
+- Force view can be toggled outside of build mode.
+- Tab will advance time by one frame or less. Ctrl+Tab - to advance frames faster.
+- ME documentation moved deep down.
+
+- Bread will reopen at the same place it was closed.
+- Ctrl+0..9 to set bookmark on selected element.
+- 0..9 to warp to bookmark.
+- Tilde (aka BackQuote) to warp back to last position warped from.
+- Ctrl+Tilde to warp to starting screen with defaul zoom.
+- Screen position at close and bookmarks are persistent and will be copypasted with bread.
+
+- Massive performance increase for editor (especially while editing large breads).
+- Holding Alt will invert grid snapping.
+- Missile laser emitters set to always by default.
+- Edit panel is now slightly less jumpy.
+- Text on components and connections will be hidden when zoomed out.
+
+- Copypasting reworked.
+- Ctrl+C - copy selected component(s) to buffer.
+- Ctrl+V - paste component(s) from buffer, keeping connections between pasted components.
+- Alt+V - paste to active component content from component in buffer, if there's only one and of the same type.
+- Buffer will be keeped until game is closed.
+- Title of editor window will reflect selected and buffered components.
+
+- Multiple components can be selected and dragged.
+- Shift+Click - add or remove component from selection.
+- Shift+MouseDrag - drag-select components.
+- Ctrl+Shift+MouseDrag - drag-select components and add to currently selected.
+- Ctrl+A - select all components on screen.
+- Ctrl+Shift+A - add all components on screen to currently selected.
+- Ctrl+I - invert selection.
