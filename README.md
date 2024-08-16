@@ -40,3 +40,13 @@ v0.6
 - Ctrl+A - select all components on screen.
 - Ctrl+Shift+A - add all components on screen to currently selected.
 - Ctrl+I - invert selection.
+
+
+To install:
+Extract into Mods folder.
+It should look something like this:
+c:\Users\YourUserName\Documents\From The Depths\Mods\BreadThing\BreadThing.dll
+
+Link:
+https://raw.githubusercontent.com/CornHollioFTD/BreadThing/main/BreadThing.rar
+
