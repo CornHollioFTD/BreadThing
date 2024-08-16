@@ -1,3 +1,11 @@
+v0.7.1
+- Air drag in UI will be rounded to 4 digits (from 2).
+- Caps Lock (freeze) will work from editor, if bread is open in build mode.
+- Ctrl+D will duplicate selected component(s), without overwriting copypaste buffer.
+- If a single component was pasted it will be set active.
+- Ctrl+M will toggle WASD between scrolling bread and external movement.
+
+
 v0.7
 - Bug was fixed.
 
