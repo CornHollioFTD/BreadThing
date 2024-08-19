@@ -1,3 +1,15 @@
+v0.7.2
+- Added import/export of components as text.
+- Alt+C will export selected components as text into clipboard.
+- Ctrl+V and Alt+V will first check clipboard for exchange string and will use it once, if found.
+
+- Added BreadCrumbs - prefabs for bread.
+- F1 to save selected components as breadcrumb.
+- F2 to load breadcrumb.
+- Breadcrumbs are located near Prefabs/Subobjects folders in: "\From The Depths\Player Profiles\YourProfile\BreadCrumbs\".
+- F1/F2 shortcuts may or may not be temporary.
+
+
 v0.7.1
 - Air drag in UI will be rounded to 4 digits (from 2).
 - Caps Lock (freeze) will work from editor, if bread is open in build mode.
