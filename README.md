@@ -1,3 +1,7 @@
+v0.7.3
+- Fixed duplication from partial drag-select.
+
+
 v0.7.2
 - Added import/export of components as text.
 - Alt+C will export selected components as text into clipboard.
