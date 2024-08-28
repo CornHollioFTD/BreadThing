@@ -1,3 +1,12 @@
+v0.8
+- Unconnected inputs of ME will be red.
+- Holding Shift while placing a new component will connect it to selected component/input/output.
+- Holding Ctrl while placing a new component will try to insert it into connection to selected component/input/output.
+- Outputs of ME will be red if it uses Output(i) function without corresponding output.
+- Added help page with explanation for all hotkeys.
+- Added Stats page. It show number of components used per each type - for bragging rights.
+
+
 v0.7.3
 - Fixed duplication from partial drag-select.
 
