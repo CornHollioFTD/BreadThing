@@ -1,3 +1,32 @@
+v0.9
+- Breadcrumbs are turned up to 11.
+- Preview image will be saved with breadcrumb.
+- Description can be added to breadcrumb when saving.
+- New file format - breadcrumbs are saved as .png images.
+- Breadcrumbs can be imported/exported (as images) via clipboard.
+- Breadcrumbs in the old format will be automatically covered (no previews will be generated).
+- Generated previews for breadcrumbs will look nice.
+- Icons added to Edit panel for Save/Load and Export/Import of breadcrumbs.
+- Stamp will be added to preview to emphasize that the image is a breadcrumb.
+- Hotkeys changed to F5/F1 for Save/Load.
+- Alt+C - generate breadcrumb for selected components.
+- Removed Export/Import of components as text string.
+- Name of the author will be saved and shown.
+- Added overwrite protection of existing file in Save Breadcrumb dialog.
+- Imported breadcrumbs will be saved into "\BreadCrumbs\ Imported".
+
+- Component must be of an actually available type to be pasted.
+- Documentation for Maths Eval will always be visible.
+- Sliders for Width/Height restored - down below.
+- Alt+A - deselect all.
+- Added toggle to hide text on connections to components that are not selected.
+- Ctrl+Alt - show only connections of selected components.
+- Holding Ctrl+Shift whle creating a new component will connect it as input to selected.
+- Hotkeys page updated.
+- Ctrl+F11 will advance time by one frame or less.
+- Experimental feature - nO cAPS lOCK.
+
+
 v0.8
 - Unconnected inputs of ME will be red.
 - Holding Shift while placing a new component will connect it to selected component/input/output.
