@@ -1,3 +1,8 @@
+v0.9.1
+- Font size of text in components and connections will scale with zoom level.
+- Text in GBG/GBS menus will be align to Left, from Center.
+
+
 v0.9
 - Breadcrumbs are turned up to 11.
 - Preview image will be saved with breadcrumb.
