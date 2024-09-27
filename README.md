@@ -1,3 +1,13 @@
+v0.9.2
+- Layout of component inventory can be customized via Layout.txt.
+- Names of components in inventory changed to be less trimmed yet fitting.
+- Animation components placed on a separate panel.
+- Components that are not on the list will be added at the end of the last panel.
+- Default printer changed to {0:G5}.
+- Fixed font size on Variable W/R.
+- Fixed premature camera unlock.
+
+
 v0.9.1
 - Font size of text in components and connections will scale with zoom level.
 - Text in GBG/GBS menus will be align to Left, from Center.
