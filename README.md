@@ -1,3 +1,8 @@
+See also:
+Collection of breadcrumbs.
+https://github.com/MrCrasch/Community_Breadcrumbs
+
+
 v0.9.2
 - Layout of component inventory can be customized via Layout.txt.
 - Names of components in inventory changed to be less trimmed yet fitting.
