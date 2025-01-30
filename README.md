@@ -3,6 +3,22 @@ Collection of breadcrumbs.
 https://github.com/MrCrasch/Community_Breadcrumbs
 
 
+
+v1.1.0 - Hot build warning!
+- Now compatible with FtD v4.2.5+.
+- Old breadcrumbs became unreadble after FtD update. Fixable, no ETA.
+- Default inventory layout fixed.
+- No fixes for old bugs - i don't remember what they are ¯\_(ツ)_/¯
+
+Experimental features:
+- Graph panel can be toggled for components to plot inputs and outputs.
+- Special-case plot for PID.
+- New component: DrawToHud - can draw lines and other primitives.
+- New component: LogToHud - can print notifications to HUD.
+- DrawToHud/LogToHud use similar primitive markup language for settings, conditions, etc.
+- No manual yet. See ToHud Demo Preview.blueprint.
+
+
 v0.9.2
 - Layout of component inventory can be customized via Layout.txt.
 - Names of components in inventory changed to be less trimmed yet fitting.
