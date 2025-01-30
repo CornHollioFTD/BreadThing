@@ -1,9 +1,3 @@
-See also:
-Collection of breadcrumbs.
-https://github.com/MrCrasch/Community_Breadcrumbs
-
-
-
 v1.1.0 - Hot build warning!
 - Now compatible with FtD v4.2.5+.
 - Old breadcrumbs became unreadble after FtD update. Fixable, no ETA.
@@ -17,6 +11,11 @@ Experimental features:
 - New component: LogToHud - can print notifications to HUD.
 - DrawToHud/LogToHud use similar primitive markup language for settings, conditions, etc.
 - No manual yet. See ToHud Demo Preview.blueprint.
+
+
+See also:
+Collection of breadcrumbs.
+https://github.com/MrCrasch/Community_Breadcrumbs
 
 
 v0.9.2
