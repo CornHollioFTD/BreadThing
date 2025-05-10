@@ -5,9 +5,9 @@ https://github.com/MrCrasch/Community_Breadcrumbs
 
 v1.2
 
-New component: RequestHeightAt - like Altitude, but at position of vector3 in first input.
-New component: ConstructInfo - a bunch of information, including Ids and Power.
-New component: CollisionAvoidance - outputs Yaw and Pitch (or Up) commands if collision is imminent. Very basic, but easy to use.
+- New component: RequestHeightAt - like Altitude, but at position of vector3 in first input.
+- New component: ConstructInfo - a bunch of information, including Ids and Power.
+- New component: CollisionAvoidance - outputs Yaw and Pitch (or Up) commands if collision is imminent. Very basic, but easy to use.
 
 RequestHeightAt keywords:
 WaveLevel
