@@ -3,6 +3,54 @@ Collection of breadcrumbs.
 https://github.com/MrCrasch/Community_Breadcrumbs
 
 
+v1.2
+
+New component: RequestHeightAt - like Altitude, but at position of vector3 in first input.
+New component: ConstructInfo - a bunch of information, including Ids and Power.
+New component: CollisionAvoidance - outputs Yaw and Pitch (or Up) commands if collision is imminent. Very basic, but easy to use.
+
+RequestHeightAt keywords:
+WaveLevel
+TerrainLevel
+TerrainAndWave
+TerrainAndSea
+
+ConstructInfo keywords:
+WithinRZ
+Name
+GlobalId - unique Id.
+TeamId - number of team if in CB, -1 otherwise.
+CurrentId - index among your active vehicles.
+Origin - vector from position of first block placed ( (0,0,0) of build marker) to CoM. Relative position of CoM can shift due to damage or moving subobjects.
+CRAM - events for detected enemy fire.
+Missile
+Torpedo
+Laser
+Fire
+Power - not easily avalible in vanilla.
+PowerMax
+Energy - should be less expensive than going through GBG.
+EnergyMax
+Ammo
+AmmoMax
+Fuel
+FuelMax
+Mats
+MatsMax
+
+CollisionAvoidance keywords:
+500 - always in the first position - minimum distance to obstacle to trigger avoidance.
+IgnoreTeam
+IgnoreEnemy
+IgnoreAbove 10
+IgnoreBelow -10
+IgnoreTime 99 - to ingore very far off collisions, in seconds.
+
+To use new components:
+1. Add Printer.
+2. Write in it the name of the component.
+3. Write after it keywords as needed.
+
 v1.1.1
 - Breadcrumbs made before update can now be loaded and imported again.
 - Guides for DrawToHud and LogToHud added.
