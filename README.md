@@ -3,6 +3,43 @@ Collection of breadcrumbs.
 https://github.com/MrCrasch/Community_Breadcrumbs
 
 
+V1.2.2
+- Added ConstructInfo TargetChanged keyword.
+
+- New component: TargetPrioCount - returns number of active targets.
+- Added TargetPrioCount Cutoff keyword. In percents. Targets will not be counted if thier score is less than cutoff of first target's score.
+
+- New component: CustomTargetInfo - like Primary Target Info, but with more info and of target with index in the first input. 0 - index of primary target.
+
+- CustomTargetInfo keywords:
+- IsDespawning - when coundown appears for sinking, etc.
+- HP
+- Aimpoint
+- Forward - orientation of the target.
+- Up
+- Right
+- Quaternion
+- IsTarget - as in Primary Target Info.
+- Distance
+- Altitude
+- Bearing
+- Position
+- Velocity
+- Volume
+- Speed
+- Heat - detection signature of target.
+- Visible
+- Snooper
+- Radar
+- PRadar
+- Sonar
+- PSonar
+
+
+v1.2.1
+- May work on non-Windows OS. Thanks to jalanisa.
+
+
 v1.2
 
 - New component: RequestHeightAt - like Altitude, but at position of vector3 in first input.
