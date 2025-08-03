@@ -3,6 +3,12 @@ Collection of breadcrumbs.
 https://github.com/MrCrasch/Community_Breadcrumbs
 
 
+!Future releases  will be on Steam Workshop!
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3540650411
+
+
+
 V1.2.2
 - Added ConstructInfo TargetChanged keyword.
 
